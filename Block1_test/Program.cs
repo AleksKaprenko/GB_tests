@@ -17,7 +17,7 @@ void ConsoleInput(string[] array) // метод ввода строк с кон�
     for (int i = 0; i < n; i++)
     {
         System.Console.Write($"Введите элемент {i + 1}: ");
-        array[i] = Console.ReadLine();
+        array[i] = Console.ReadLine()!;
     }
 }
 
